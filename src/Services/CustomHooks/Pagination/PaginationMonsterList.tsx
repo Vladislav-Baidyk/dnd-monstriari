@@ -1,4 +1,4 @@
-    import React, { useState } from 'react'
+    import { useState } from 'react'
     import type { IMonster } from '../../../Models/IMonster';
 
     export default function PaginationMonsterList(monsters: IMonster[], itemsPerPage: number = 6) {
