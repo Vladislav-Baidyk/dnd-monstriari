@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import type { IMonster } from "../../Models/IMonster";
 import { getAllMonstersFull } from '../../Services/api.service';
 import Monster from '../Monster/Monster';
@@ -32,7 +32,7 @@ export default function Monsters() {
     setSelectedSwim
   } = FilterListHook(monsters);
 
-  const { filteredMonsters, currentPage, totalPages, handlePrev, handleNext } =
+  const { filteredMonsters,handlePrev, handleNext } =
     useMonsterPagination(processedList, 6);
 
   if (isLoading) return <div>Loading</div>;

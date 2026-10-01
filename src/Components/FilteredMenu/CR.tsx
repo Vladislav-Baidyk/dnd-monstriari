@@ -1,4 +1,3 @@
-import React from 'react'
 
 type CRProps={
   onSelect: (val: string) => void;

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import type { IMonster } from '../../../Models/IMonster';
 import { useParams } from 'react-router-dom';
 import { getMonster } from '../../../Services/api.service';

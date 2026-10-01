@@ -1,4 +1,3 @@
-import React from 'react'
 import './Header.css'
 import BurgerMenu from '../Burger-Menu/BurgerMenu'
 

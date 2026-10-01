@@ -1,4 +1,3 @@
-import React from 'react'
 import CR from './CR';
 import Size from './Size';
 import Swim from './Swim';

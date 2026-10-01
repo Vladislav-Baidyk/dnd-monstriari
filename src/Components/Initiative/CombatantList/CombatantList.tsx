@@ -1,4 +1,3 @@
-import React from 'react';
 import type { ICombatant } from '../../../Models/ICombatant';
 import Combatant from '../Combatant/Combatant';
 
