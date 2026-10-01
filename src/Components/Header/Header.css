@@ -1,0 +1,7 @@
+.header-text-image{
+    color: rgb(198, 163, 90);
+}
+.header-text-image:hover{
+    color: rgb(255, 220, 131);
+    transition-duration: 300ms;
+}
